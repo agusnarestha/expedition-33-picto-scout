@@ -1,0 +1,4 @@
+pyautogui
+easyocr
+opencv-python
+pillow

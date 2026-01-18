@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Project Output
+# We ignore the output directory so we don't upload screenshots/logs
+output/
+
+# OS specific
+.DS_Store
+Thumbs.db
