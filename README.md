@@ -40,6 +40,10 @@
 ## 🎮 Usage
 
 1.  **Open the Game**: Launch *Expedition 33* and navigate to the **Pictos** menu so the list is visible.
+
+    ![Standby Screen](example_idle.png)
+    *Make sure your screen looks like this before starting!*
+
 2.  **Run the Scout**:
     ```bash
     python scout.py
@@ -59,7 +63,7 @@
 
 ## ✅ Tested On
 
-*   **OS**: Windows 10
+*   **OS**: Windows 11
 *   **Resolution**: 1920x1080 (Full HD) & 2560x1440 (2K)
 *   **Game Version**: Latest Steam Release (as of Jan 2026)
 
