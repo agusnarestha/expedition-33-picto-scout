@@ -21,7 +21,7 @@
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/expedition-33-picto-scout.git
+    git clone https://github.com/agusnarestha/expedition-33-picto-scout.git
     cd expedition-33-picto-scout
     ```
 
