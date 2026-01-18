@@ -71,9 +71,43 @@
 
 *   `scout.py`: Main script for capture and OCR.
 *   `compare.py`: Fuzzy matching logic for list comparison.
-*   `master_list.txt`: Database of all known Pictos (updated from Fextralife Wiki).
+*   `master_list.txt`: Database of all known Pictos (updated from [Fextralife Wiki](https://expedition33.wiki.fextralife.com/Pictos)).
 *   `output/`: Stores all screenshots and text reports.
+
+
+## 🐞 Issues & Troubleshooting
+
+If you encounter a bug, incorrect OCR results, or missing detections, please check the following first:
+
+### Common Issues
+
+* **OCR misses some Pictos**
+  * Ensure the game is running in **Windowed** or **Borderless Windowed** mode.
+  * Avoid motion blur or UI scaling settings that reduce text clarity.
+  * Make sure the list is fully visible and not partially covered by overlays.
+
+* **Scrolling stops too early or too late**
+  * Screen resolution or UI scale may differ.
+  * Try adjusting the scroll delay or detection threshold in `scout.py`.
+
+* **False positives / incorrect names**
+  * OCR is fuzzy by nature—similar-looking names may be misread.
+  * The comparison logic uses fuzzy matching, but manual verification is recommended.
+
+### Reporting Issues
+
+If the problem persists, please open a GitHub Issue and include:
+
+* Your **OS & resolution**
+* **Game display mode** (Windowed / Borderless)
+* A **screenshot** of your Pictos menu
+* Relevant logs or output files (`detected_pictos.txt`)
+
+👉 Open an issue here:  
+https://github.com/agusnarestha/expedition-33-picto-scout/issues
+
 
 ## ⚠️ Disclaimer
 
 This tool uses image recognition and mouse automation. It interacts with the game client only by taking screenshots and simulating scroll wheel inputs. Use responsibly.
+
